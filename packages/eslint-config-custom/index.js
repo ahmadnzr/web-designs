@@ -9,6 +9,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
+    "turbo",
   ],
   overrides: [],
   parser: "@typescript-eslint/parser",
