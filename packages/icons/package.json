@@ -1,0 +1,13 @@
+{
+  "name": "icons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@heroicons/react": "^2.0.14"
+  },
+  "devDependencies": {
+    "tsconfig": "*",
+    "typescript": "^4.9.3"
+  }
+}
