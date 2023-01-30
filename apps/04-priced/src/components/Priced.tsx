@@ -5,7 +5,7 @@ import no from "../assets/no.png";
 
 const Priced = () => {
   return (
-    <div className="text-black/60 mt-[96px] flex items-start justify-end">
+    <div className="text-black/60 mt-[96px] flex lg:flex-row flex-col lg:items-start justify-end gap-10 lg:gap-0 items-center">
       <div className="flex-1 p-[30px] bg-white/90 shadow-[0px_10px_30px_rgba(0,0,0,0.1)] rounded-[10px_0px_10px_10px] hover:scale-105 duration-75">
         <div>
           <h2 className="text-purpleDark font-bold text-[16px] leading-[21px]">
@@ -70,7 +70,7 @@ const Priced = () => {
           </div>
         </div>
       </div>
-      <div className="flex-1 ml-[22px] p-[30px] bg-white/90 shadow-[0px_10px_30px_rgba(0,0,0,0.1)] rounded-[0px_0px_10px_10px] relative hover:scale-105 duration-75">
+      <div className="flex-1 lg:ml-[22px] p-[30px] bg-white/90 shadow-[0px_10px_30px_rgba(0,0,0,0.1)] rounded-[0px_0px_10px_10px] relative hover:scale-105 duration-75">
         <div className="absolute -top-[28px] left-0 right-0 bg-purpleDark text-white text-center rounded-[10px_10px_0px_0px]">
           <span className="uppercase text-[10px] font-bold leading-[22px]">
             recommended
@@ -145,7 +145,7 @@ const Priced = () => {
           </div>
         </div>
       </div>
-      <div className="flex-1 ml-[38px] p-[30px] bg-white/90 shadow-[0px_10px_30px_rgba(0,0,0,0.1)] rounded-[0px_10px_10px_10px] hover:scale-105 duration-75">
+      <div className="flex-1 lg:ml-[38px] p-[30px] bg-white/90 shadow-[0px_10px_30px_rgba(0,0,0,0.1)] rounded-[0px_10px_10px_10px] hover:scale-105 duration-75">
         <div>
           <h2 className="text-purpleDark font-bold text-[16px] leading-[21px]">
             Enterprise

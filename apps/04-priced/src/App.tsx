@@ -6,8 +6,8 @@ import Priced from "./components/Priced";
 
 function App() {
   return (
-    <div className="bg-gradient-primary text-white">
-      <div className="lg:max-w-[1440px] min-h-[1201px] px-[150px] pt-[57px] mx-auto">
+    <div className="bg-gradient-primary min-w-full min-h-screen text-white">
+      <div className="container lg:max-w-[1440px] min-h-[1201px] px-10 lg:px-[150px] pt-[57px] mx-auto">
         <Navbar />
         <Hero />
         <Priced />

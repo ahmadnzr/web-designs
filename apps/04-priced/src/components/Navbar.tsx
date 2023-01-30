@@ -8,7 +8,7 @@ const Navbar = () => {
           Strawrage
         </h1>
       </div>
-      <div className="w-[550px] flex gap-[50px] items-center justify-center font-medium text-[16px] leading-[21px] text-white/80">
+      <div className="hidden lg:w-[550px] lg:flex gap-[50px] items-center justify-center font-medium text-[16px] leading-[21px] text-white/80">
         <a href="#home">Home</a>
         <a href="#product">Product</a>
         <a href="#pricing" className="font-bold text-white">
