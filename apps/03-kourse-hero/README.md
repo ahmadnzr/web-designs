@@ -1,6 +1,6 @@
 # Kourse Hero
 
-[https://web-slicing-monorepo-03-kourse-hero.vercel.app/](https://web-slicing-monorepo-03-kourse-hero.vercel.app/)
+[https://kourse-hero-03.web.app/](https://kourse-hero-03.web.app/)
 
 # Figma File
 

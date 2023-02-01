@@ -1,6 +1,6 @@
 # Twitter Embed
 
-[https://web-slicing-monorepo-02-twitter-embed.vercel.app/](https://web-slicing-monorepo-02-twitter-embed.vercel.app/)
+[https://twitter-embed-02.web.app/](https://twitter-embed-02.web.app/)
 
 # Figma File
 

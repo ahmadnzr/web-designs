@@ -1,6 +1,6 @@
 # Hola Dok
 
-[https://web-slicing-monorepo-01-hola-dok.vercel.app/](https://web-slicing-monorepo-01-hola-dok.vercel.app/)
+[https://web-slicing.web.app/](https://web-slicing.web.app/)
 
 ## Figma File
 
