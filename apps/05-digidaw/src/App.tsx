@@ -7,7 +7,7 @@ import ilustration from "./assets/ilustration.png";
 
 function App() {
   return (
-    <div className="min-h-[1024px] relative text-white overflow-x-hidden">
+    <div className="min-h-screen relative text-white overflow-x-hidden">
       <div className="absolute top-0 bottom-0 w-full min-h-full z-20">
         <div className="lg:max-w-[1440px] px-[150px] pt-[58px] mx-auto relative">
           <Navbar />
