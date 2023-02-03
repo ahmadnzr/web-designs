@@ -14,7 +14,7 @@ const Navbar = () => {
         <a href="#pricing">Pricing</a>
         <a href="#contact">Contact Us</a>
       </div>
-      <div className="w-[295-x] flex justify-end items-start">
+      <div className="w-[295px] flex justify-end items-start">
         <button className="px-[30px] py-[15px] bg-white text-black rounded-full">
           Sign In
         </button>
