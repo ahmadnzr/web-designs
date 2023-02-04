@@ -131,7 +131,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="absolute top-0 bottom-0 left-0 right-0 z-30">
+      <div className="absolute min-h-[1024px] top-0 bottom-0 left-0 right-0 z-30">
         <div className="absolute top-0 bottom-0 left-0 right-0 bg-[rgba(247,259,255,0.9)] backdrop-blur-[125px] z-20"></div>
         <div className="absolute top-0 bottom-0 left-0 right-0 bg-one z-10"></div>
       </div>
