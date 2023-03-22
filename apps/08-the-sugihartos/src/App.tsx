@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Container from "./layouts/Container";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Overview from "./pages/Overview";
 
 export type PageType = "home" | "overview" | "skills" | "projects" | "contacts";
 
@@ -12,7 +13,7 @@ function App() {
       <Navbar setPage={setPage} />
       <div className="pt-[96px]">
         {page === "home" && <Home setPage={setPage} />}
-        {page === "overview" && <div>Overview</div>}
+        {page === "overview" && <Overview />}
         {page === "skills" && <div>Skills</div>}
         {page === "projects" && <div>Projects</div>}
         {page === "contacts" && <div>Contacts</div>}
