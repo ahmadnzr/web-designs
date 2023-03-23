@@ -3,6 +3,7 @@ import Container from "./layouts/Container";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Overview from "./pages/Overview";
+import Project from "./pages/Projects";
 
 export type PageType = "home" | "overview" | "skills" | "projects" | "contacts";
 
@@ -15,7 +16,7 @@ function App() {
         {page === "home" && <Home setPage={setPage} />}
         {page === "overview" && <Overview />}
         {page === "skills" && <div>Skills</div>}
-        {page === "projects" && <div>Projects</div>}
+        {page === "projects" && <Project />}
         {page === "contacts" && <div>Contacts</div>}
       </div>
     </Container>
