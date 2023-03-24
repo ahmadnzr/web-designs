@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Overview from "./pages/Overview";
 import Project from "./pages/Projects";
+import Skills from "./pages/Skills";
 
 export type PageType = "home" | "overview" | "skills" | "projects" | "contacts";
 
@@ -15,7 +16,7 @@ function App() {
       <div className="pt-[96px]">
         {page === "home" && <Home setPage={setPage} />}
         {page === "overview" && <Overview />}
-        {page === "skills" && <div>Skills</div>}
+        {page === "skills" && <Skills />}
         {page === "projects" && <Project />}
         {page === "contacts" && <div>Contacts</div>}
       </div>
