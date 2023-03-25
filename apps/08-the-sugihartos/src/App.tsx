@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Overview from "./pages/Overview";
 import Project from "./pages/Projects";
 import Skills from "./pages/Skills";
+import Contact from "./pages/Contact/Contact";
 
 export type PageType = "home" | "overview" | "skills" | "projects" | "contacts";
 
@@ -18,7 +19,7 @@ function App() {
         {page === "overview" && <Overview />}
         {page === "skills" && <Skills />}
         {page === "projects" && <Project />}
-        {page === "contacts" && <div>Contacts</div>}
+        {page === "contacts" && <Contact />}
       </div>
     </Container>
   );
