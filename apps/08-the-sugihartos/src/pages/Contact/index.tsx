@@ -22,7 +22,7 @@ const Contact = () => {
         </p>
         <div className="mt-[44px]">
           <div className="flex gap-[30px] items-center">
-            <div className="w-[70px] h-[70px] bg-white/5 flex items-center justify-center">
+            <div className="w-[70px] h-[70px] bg-white/5 flex items-center justify-center rounded-md">
               <img src={PHONE} alt="" />
             </div>
             <div className="flex flex-col justify-start gap-[8px]">
@@ -35,7 +35,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="mt-[30px] flex gap-[30px] items-center">
-            <div className="w-[70px] h-[70px] bg-white/5 flex items-center justify-center">
+            <div className="w-[70px] h-[70px] bg-white/5 flex items-center justify-center rounded-md">
               <img src={MAIL} alt="" />
             </div>
             <div className="flex flex-col justify-start gap-[8px]">

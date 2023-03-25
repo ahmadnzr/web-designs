@@ -16,7 +16,6 @@ const Backround = () => {
         <img src={BG3} alt="" />
         <img src={BG2} alt="" />
       </div>
-      {/* <img src={BG1} /> */}
     </div>
   );
 };
