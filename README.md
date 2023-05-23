@@ -10,3 +10,6 @@ I use this repository to practice transforming websites from existing designs. I
 4. [Priced](https://priced-04.web.app/)
 5. [Digidaw](https://digidaw-05.web.app/)
 6. [Jobless](https://jobless-06.web.app/)
+7. [Nowted](https://nowted-07.web.app/)
+8. [The Sugihartos](https://the-sugiharto-08.web.app/)
+9. [Promptopia](https://12-promptopia.vercel.app/)
