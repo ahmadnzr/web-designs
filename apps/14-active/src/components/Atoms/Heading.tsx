@@ -6,6 +6,7 @@ interface Props {
   type?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
   color?: string;
   weight?: "normal" | "semibold" | "bold";
+  className?: string;
 }
 
 const Heading = ({
@@ -13,9 +14,10 @@ const Heading = ({
   type = "h2",
   color = "text-neutral-50",
   weight = "normal",
+  className = "",
 }: Props) => {
-  const largeStyle = `leading-[130%] font-${weight}`;
-  const smallStyle = `leading-[140%] font-${weight}`;
+  const largeStyle = `leading-[130%] font-${weight} ${className}`;
+  const smallStyle = `leading-[140%] font-${weight} ${className}`;
 
   switch (type) {
     case "h1":
