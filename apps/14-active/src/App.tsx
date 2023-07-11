@@ -136,31 +136,39 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="absolute bottom-0 left-0 right-0 px-5 py-10">
-            <div className="flex items-center gap-4 justify-start">
-              <img
-                src="avatar.jpg"
-                alt=""
-                className="w-[60px] h-[60px] object-cover rounded-full"
-              />
-              <div className="flex flex-col">
-                <Text weight="bold" type="span" className="" size="lg">
-                  Nizar Dev
-                </Text>
-                <div className="badge badge-primary badge-outline badge-md">
-                  Super Admin
+          <div className="absolute bottom-0 left-0 right-0">
+            <div className="mx-5 my-10 bg-neutral-30 p-5 rounded-md">
+              <div className="flex items-center gap-4 justify-start">
+                <img
+                  src="avatar.jpg"
+                  alt=""
+                  className="w-[60px] h-[60px] object-cover rounded-full"
+                />
+                <div className="flex flex-col">
+                  <Text weight="bold" type="span" className="" size="lg">
+                    Nizar Dev
+                  </Text>
+                  <div className="badge badge-primary badge-md">
+                    Super Admin
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="flex items-start gap-5 mt-6">
-              <Cog6ToothIcon className="w-[30px] h-[30px]" />
-              <Button
-                icon={<ArrowLeftOnRectangleIcon />}
-                size="sm"
-                type="ghost"
-              >
-                Logout
-              </Button>
+              <div className="flex items-start gap-5 mt-6">
+                <Button
+                  type="neutral"
+                  size="md"
+                  icon={<Cog6ToothIcon />}
+                  // outlined
+                />
+                <Button
+                  icon={<ArrowLeftOnRectangleIcon />}
+                  size="md"
+                  type="neutral"
+                  // outlined
+                >
+                  Logout
+                </Button>
+              </div>
             </div>
           </div>
         </div>
