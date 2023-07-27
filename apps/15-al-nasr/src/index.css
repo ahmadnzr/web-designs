@@ -1,7 +1,67 @@
+:root {
+  --primary-dark: hsla(175, 70%, 38%, 1);
+  --primary-light: hsla(175, 100%, 88%, 1);
+
+  --secondary-dark: hsla(36, 100%, 70%, 1);
+
+  --neutral-10: hsla(0, 0%, 100%, 1);
+  --neutral-20: hsla(0, 0%, 32%, 1);
+  --neutral-30: hsla(0, 0%, 27%, 1);
+  --neutral-40: hsla(0, 0%, 29%, 1);
+  --neutral-50: hsla(0, 0%, 25%, 1);
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
   font-family: "Nunito", sans-serif;
   font-weight: 500;
+  font-size: 24px;
+  color: var(--neutral-30);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  font-weight: 700;
+  color: var(--secondary-dark);
+}
+
+button {
+  padding: 26px 48px;
+  border: none;
+  border-radius: 10px;
+
+  font-weight: 700;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.btn-contained {
+  background-color: var(--secondary-dark);
+  color: var(--neutral-50);
+}
+
+.btn-outlined {
+  background-color: var(--neutral-10);
+  border: 2px solid var(--secondary-dark);
+  color: var(--secondary-dark);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  body {
+    zoom: 1;
+  }
+
+  button {
+    padding: 15px 20px;
+
+    font-size: 14px;
+  }
 }

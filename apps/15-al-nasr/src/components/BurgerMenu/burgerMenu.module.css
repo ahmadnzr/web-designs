@@ -1,0 +1,18 @@
+.burgerMenu {
+  display: none;
+}
+
+.burgerMenu span {
+  display: block;
+  height: 2px;
+  width: 20px;
+  background-color: var(--primary-dark);
+}
+
+@media screen and (max-width: 768px) {
+  .burgerMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
