@@ -1,0 +1,15 @@
+.layout {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+  .layout {
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+}
