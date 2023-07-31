@@ -1,0 +1,138 @@
+.container {
+  margin-top: 76px;
+  display: flex;
+}
+
+.left {
+  flex: 1;
+}
+
+.budget {
+  padding: 14px 40px;
+
+  display: inline-block;
+  border-radius: 20px;
+  background-color: var(--primary-light);
+}
+
+.textBudget {
+  color: var(--primary-dark);
+  line-height: 64%;
+}
+
+.heroTitle {
+  width: 627px;
+  margin-top: 35px;
+
+  font-family: "Kufam", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.heroDescription {
+  width: 645px;
+  margin-top: 15px;
+
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.button {
+  margin-top: 32px;
+}
+
+.playButtonContainer {
+  position: relative;
+}
+
+.right {
+  width: 548px;
+  position: relative;
+}
+
+.backdrop {
+  width: 533px;
+  height: 243px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 10px;
+  background-color: var(--primary-dark);
+}
+
+.videoContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video {
+  width: 406px;
+  height: 587px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.playContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 87px;
+  height: 87px;
+  background-color: var(--neutral-10);
+
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: blur(7px);
+}
+
+.review1 {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.review2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+  .right {
+    display: none;
+  }
+
+  .budget {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .heroTitle {
+    max-width: 370px;
+    font-size: 32px;
+  }
+
+  .heroDescription {
+    max-width: 350px;
+    font-size: 16px;
+  }
+}
