@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 175px;
+  margin-top: 80px;
 }
 
 .logo {
@@ -52,7 +53,7 @@
   right: 20px;
   width: 30px;
   height: 30px;
-  
+
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -68,6 +69,7 @@
 @media screen and (max-width: 768px) {
   .container {
     gap: 0;
+    margin-top: 10px;
   }
 
   .logo {
