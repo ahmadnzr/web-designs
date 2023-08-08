@@ -1,6 +1,7 @@
 :root {
   --primary-dark: hsla(175, 70%, 38%, 1);
   --primary-light: hsla(175, 100%, 88%, 1);
+  --primary-mid: hsla(175, 100%, 98%, 1);
 
   --secondary-dark: hsla(36, 100%, 70%, 1);
 
@@ -11,10 +12,13 @@
   --neutral-50: hsla(0, 0%, 25%, 1);
 }
 
-html,
-body {
+* {
   margin: 0;
   padding: 0;
+}
+
+html,
+body {
   font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -40,6 +44,11 @@ button {
   font-size: 20px;
 
   cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 .btn-contained {
@@ -53,6 +62,18 @@ button {
   color: var(--secondary-dark);
 }
 
+.text-title {
+  font-family: "Kufam", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.text-description {
+  font-weight: 600;
+  line-height: 150%;
+}
+
 /* Responsive */
 @media screen and (max-width: 768px) {
   body {
@@ -63,5 +84,13 @@ button {
     padding: 15px 20px;
 
     font-size: 14px;
+  }
+
+  .textTitle {
+    font-size: 32px;
+  }
+
+  .textDescription {
+    font-size: 16px;
   }
 }
