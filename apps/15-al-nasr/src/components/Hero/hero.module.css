@@ -1,5 +1,5 @@
 .container {
-  margin-top: 76px;
+  margin: 76px 0 100px 0;
   display: flex;
 }
 
@@ -23,19 +23,11 @@
 .heroTitle {
   width: 627px;
   margin-top: 35px;
-
-  font-family: "Kufam", sans-serif;
-  font-size: 54px;
-  font-weight: 700;
-  line-height: 140%;
 }
 
 .heroDescription {
   width: 645px;
   margin-top: 15px;
-
-  font-weight: 600;
-  line-height: 150%;
 }
 
 .button {
@@ -128,11 +120,9 @@
 
   .heroTitle {
     max-width: 370px;
-    font-size: 32px;
   }
 
   .heroDescription {
     max-width: 350px;
-    font-size: 16px;
   }
 }

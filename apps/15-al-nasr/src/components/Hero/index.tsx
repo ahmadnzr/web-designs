@@ -13,10 +13,10 @@ const Hero = () => {
           <div className={styles.budget}>
             <span className={styles.textBudget}>No. 1 in Indonesia</span>
           </div>
-          <h1 className={styles.heroTitle}>
+          <h1 className={clsx(styles.heroTitle, "text-title")}>
             Make it easy for your Umrah worship with Al Nasr Travel
           </h1>
-          <p className={styles.heroDescription}>
+          <p className={clsx(styles.heroDescription, "text-description")}>
             Facilitate your Umrah pilgrimage with us, we already have hundreds
             of thousands of customers, you can go for Umrah to Mecca and Medina
           </p>
