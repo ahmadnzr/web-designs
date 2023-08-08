@@ -1,0 +1,7 @@
+.iconContainer {
+  width: 24px;
+  height: 24px;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: var(--primary-light);
+}
