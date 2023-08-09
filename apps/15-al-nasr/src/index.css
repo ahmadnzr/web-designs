@@ -15,6 +15,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -86,11 +87,11 @@ button:hover {
     font-size: 14px;
   }
 
-  .textTitle {
+  .text-title {
     font-size: 32px;
   }
 
-  .textDescription {
+  .text-description {
     font-size: 16px;
   }
 }
