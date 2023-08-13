@@ -15,6 +15,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -74,6 +75,15 @@ button:hover {
   line-height: 150%;
 }
 
+.swiper-wrapper {
+  transition-timing-function: linear;
+  display: flex;
+}
+
+.swiper-slide {
+  width: fit-content !important;
+}
+
 /* Responsive */
 @media screen and (max-width: 768px) {
   body {
@@ -86,11 +96,11 @@ button:hover {
     font-size: 14px;
   }
 
-  .textTitle {
+  .text-title {
     font-size: 32px;
   }
 
-  .textDescription {
+  .text-description {
     font-size: 16px;
   }
 }
