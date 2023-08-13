@@ -75,6 +75,15 @@ button:hover {
   line-height: 150%;
 }
 
+.swiper-wrapper {
+  transition-timing-function: linear;
+  display: flex;
+}
+
+.swiper-slide {
+  width: fit-content !important;
+}
+
 /* Responsive */
 @media screen and (max-width: 768px) {
   body {
