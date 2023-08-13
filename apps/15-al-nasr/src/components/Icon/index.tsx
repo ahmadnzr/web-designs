@@ -18,7 +18,8 @@ interface Props {
     | "vaccine"
     | "vehicle"
     | "visa"
-    | "youtube";
+    | "youtube"
+    | "star";
 }
 
 const Icon = ({ type }: Props) => {
@@ -117,6 +118,12 @@ const Icon = ({ type }: Props) => {
       return (
         <div className={styles.iconContainer}>
           <img src="/images/icons/youtube.png" alt="" />
+        </div>
+      );
+    case "star":
+      return (
+        <div className={styles.iconContainer}>
+          <img src="/images/icons/star.png" alt="" />
         </div>
       );
   }
