@@ -77,11 +77,6 @@ button:hover {
 
 .swiper-wrapper {
   transition-timing-function: linear;
-  display: flex;
-}
-
-.swiper-slide {
-  width: fit-content !important;
 }
 
 /* Responsive */
