@@ -6,6 +6,7 @@ import Program from "./components/Program";
 import Accomodation from "./components/Accomodation";
 import { Facilities } from "./components/Facilities";
 import Review from "./components/Review";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Accomodation />
       <Facilities />
       <Review />
+      <Gallery />
     </div>
   );
 }
