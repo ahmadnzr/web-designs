@@ -1,0 +1,81 @@
+.container {
+  background-color: var(--primary-dark);
+  padding: 60px 0;
+  color: var(--neutral-10);
+}
+
+.top {
+  display: flex;
+}
+
+.footLogo {
+  width: 300px;
+  margin-right: 40px;
+}
+
+.footTxt {
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.menus {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkTitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.links a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.links a:hover {
+  font-weight: inherit;
+}
+
+.divider {
+  margin: 25px 0;
+  height: 1px;
+  background-color: var(--neutral-10);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom p {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+.socials {
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.iconContainer {
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  background-color: var(--neutral-10);
+  border-radius: 10px;
+}

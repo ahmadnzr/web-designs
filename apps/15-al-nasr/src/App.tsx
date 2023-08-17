@@ -7,6 +7,7 @@ import Accomodation from "./components/Accomodation";
 import { Facilities } from "./components/Facilities";
 import Review from "./components/Review";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Facilities />
       <Review />
       <Gallery />
+      <Footer />
     </div>
   );
 }
