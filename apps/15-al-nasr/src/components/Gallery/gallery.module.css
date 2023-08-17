@@ -1,0 +1,23 @@
+.top {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.desc {
+  width: 660px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.imgLg {
+  grid-column: 1;
+  grid-row: 1/3;
+}
