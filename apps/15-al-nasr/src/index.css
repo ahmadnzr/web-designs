@@ -29,6 +29,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  transition: 0.1s ease-in;
 }
 
 a:hover {
@@ -77,11 +78,6 @@ button:hover {
 
 .swiper-wrapper {
   transition-timing-function: linear;
-  display: flex;
-}
-
-.swiper-slide {
-  width: fit-content !important;
 }
 
 /* Responsive */
