@@ -10,6 +10,13 @@
   --neutral-30: hsla(0, 0%, 27%, 1);
   --neutral-40: hsla(0, 0%, 29%, 1);
   --neutral-50: hsla(0, 0%, 25%, 1);
+
+  --text-xs: 12px;
+  --text-sm: 16px;
+  --text-md: 20px;
+  --text-lg: 25px;
+  --text-xl: 39px;
+  --text-xxl: 48px;
 }
 
 * {
@@ -22,7 +29,7 @@ html,
 body {
   font-family: "Nunito", sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: var(--text-md);
   color: var(--neutral-30);
 }
 
@@ -43,7 +50,7 @@ button {
   border-radius: 10px;
 
   font-weight: 700;
-  font-size: 20px;
+  font-size: var(--text-md);
 
   cursor: pointer;
   transition: 0.2s ease-in;
@@ -66,7 +73,7 @@ button:hover {
 
 .text-title {
   font-family: "Kufam", sans-serif;
-  font-size: 54px;
+  font-size: var(--text-xxl);
   font-weight: 700;
   line-height: 140%;
 }
@@ -83,7 +90,7 @@ button:hover {
 /* Responsive */
 @media screen and (max-width: 768px) {
   body {
-    zoom: 1;
+    font-size: var(--text-sm);
   }
 
   button {
@@ -93,10 +100,6 @@ button:hover {
   }
 
   .text-title {
-    font-size: 32px;
-  }
-
-  .text-description {
-    font-size: 16px;
+    font-size: var(--text-lg);
   }
 }

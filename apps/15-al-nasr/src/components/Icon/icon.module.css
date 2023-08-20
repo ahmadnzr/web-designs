@@ -5,3 +5,16 @@
   border-radius: 10px;
   background-color: var(--primary-light);
 }
+
+@media screen and (max-width: 768px) {
+  .iconContainer {
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+  }
+
+  .iconContainer img {
+    height: 20px;
+    width: 20px;
+  }
+}

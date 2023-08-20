@@ -1,5 +1,5 @@
 .container {
-  margin: 90px 0;
+  padding: 40px 0;
 }
 
 .top {
@@ -64,22 +64,52 @@
   color: var(--primary-dark);
 }
 
-.textBudget1 {
-  font-size: 10px;
-}
-
-.textBudget2 {
-  font-size: 14px;
+.textBudget {
+  font-size: var(--text-sm);
 }
 
 .cardTitle {
   margin-top: 20px;
   color: var(--neutral-40);
   font-family: "Kufam", sans-serif;
-  font-size: 24px;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
 .cardDesc {
-  font-size: 14px;
+  font-size: var(--text-sm);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px 0;
+  }
+  .title {
+    width: fit-content;
+  }
+
+  .desc {
+    width: fit-content;
+  }
+  .card {
+    padding: 8px;
+    margin: 10px 0;
+    gap: 10px;
+  }
+  .budget {
+    padding: 2px 8px;
+  }
+
+  .textBudget {
+    font-size: var(--text-xs);
+  }
+
+  .cardTitle {
+    margin-top: 10px;
+    font-size: var(--text-sm);
+  }
+
+  .cardDesc {
+    font-size: var(--text-xs);
+  }
 }

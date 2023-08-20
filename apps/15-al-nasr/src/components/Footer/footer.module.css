@@ -1,6 +1,6 @@
 .container {
   background-color: var(--primary-dark);
-  padding: 60px 0;
+  padding: 40px 0;
   color: var(--neutral-10);
 }
 
@@ -15,7 +15,7 @@
 
 .footTxt {
   margin-top: 20px;
-  font-size: 13px;
+  font-size: var(--text-sm);
   font-weight: 600;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .linkTitle {
-  font-size: 24px;
+  font-size: var(--text-md);
   font-weight: 700;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .links a {
-  font-size: 20px;
+  font-size: var(--text-md);
   font-weight: 500;
 }
 
@@ -61,7 +61,7 @@
 
 .bottom p {
   flex: 1;
-  font-size: 16px;
+  font-size: var(--text-sm);
   font-weight: 600px;
 }
 
@@ -78,4 +78,36 @@
   padding: 6px;
   background-color: var(--neutral-10);
   border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px 0;
+  }
+  .top {
+    display: none;
+  }
+  .divider {
+    display: none;
+  }
+
+  .bottom {
+    gap: 20px;
+  }
+
+  .socials {
+    width: fit-content;
+    gap: 5px;
+  }
+
+  .iconContainer {
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+  }
+
+  .iconContainer img {
+    width: 18px;
+    height: 18px;
+  }
 }
