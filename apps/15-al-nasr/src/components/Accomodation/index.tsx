@@ -19,7 +19,9 @@ const Accomodation = () => {
   return (
     <div className={styles.container} ref={containerRef}>
       <div className={styles.left}>
-        <h2 className={clsx(styles.title)}>Airways Acomodation</h2>
+        <h2 className={clsx("text-title", styles.title)}>
+          Airways Acomodation
+        </h2>
         <p className={clsx(styles.desc, "text-description")}>
           We cooperate with several airlines for Umrah and Hajj
         </p>

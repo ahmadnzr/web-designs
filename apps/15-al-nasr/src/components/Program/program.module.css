@@ -1,6 +1,7 @@
 .container {
-  padding: 60px 0;
+  padding: 40px 0;
 }
+
 .titleWrapper {
   width: 821px;
   margin: 0 auto;
@@ -47,7 +48,7 @@
 }
 
 .label {
-  font-size: 16px;
+  font-size: var(--text-sm);
   font-weight: 700;
   color: var(--secondary-dark);
 }
@@ -110,4 +111,75 @@
   font-size: 12px;
   font-weight: 600;
   color: var(--primary-dark);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px 0;
+  }
+  .titleWrapper,
+  .desc {
+    width: fit-content;
+  }
+
+  .programContainer {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 20px 16px;
+  }
+
+  .cardImage {
+    width: 100%;
+  }
+
+  .cardLabel {
+    margin-top: 10px;
+    height: fit-content;
+  }
+
+  .label {
+    font-size: var(--text-xs);
+  }
+
+  .labelBudget {
+    position: absolute;
+    right: -16px;
+    padding: 2px 22px;
+    border-radius: 30px 0 0 30px;
+    background-color: var(--primary-light);
+  }
+
+  .labelBudget span {
+    font-size: var(--text-xs);
+    font-weight: 700;
+    color: var(--primary-dark);
+  }
+
+  .cardTitle {
+    margin-top: 15px;
+    font-size: var(--text-xs);
+  }
+
+  .cardPrice {
+    margin-top: 10px;
+    font-size: var(--text-sm);
+  }
+
+  .benefits {
+    width: 100%;
+    margin: 10px 0;
+    justify-content: space-between;
+    gap: 0;
+    flex-wrap: wrap;
+  }
+
+  .buttonSm {
+    width: 100%;
+    padding: 6px 18px;
+    font-size: var(--text-xs);
+  }
 }

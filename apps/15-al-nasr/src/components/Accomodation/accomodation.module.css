@@ -1,7 +1,7 @@
 .container {
   width: 1220px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 40px 0;
   display: flex;
   gap: 80px;
 }
@@ -11,9 +11,6 @@
 }
 
 .title {
-  font-family: "Kufam", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
 }
 
 .desc {
@@ -31,8 +28,7 @@
 
 .textBudget {
   color: var(--primary-dark);
-  font-size: 18px;
-  line-height: 64%;
+  font-size: var(--text-sm);
 }
 
 .right {
@@ -51,4 +47,38 @@
   height: 70px;
   width: 300px;
   object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px 0;
+    width: fit-content;
+    flex-direction: column;
+  }
+
+  .left {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .budget {
+    width: fit-content;
+    margin-top: 10px;
+    padding: 4px 8px;
+  }
+
+  .textBudget {
+    font-size: var(--text-xs);
+  }
+
+  .right {
+    width: 100vw;
+  }
+
+  .right img {
+    width: 100px;
+  }
 }
