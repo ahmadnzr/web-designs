@@ -1,5 +1,5 @@
 .container {
-  padding: 90px 0;
+  padding: 40px 0;
   background-color: var(--primary-mid);
 }
 
@@ -42,11 +42,38 @@
 .cardTitle {
   color: var(--neutral-40);
   font-family: Kufam;
-  font-size: 20px;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
 .cardDesc {
-  font-size: 14px;
+  font-size: var(--text-sm);
   font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px 0;
+  }
+  .desc {
+    width: fit-content;
+  }
+
+  .content {
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .card {
+    padding: 10px;
+    gap: 10px;
+  }
+  .cardTitle {
+    font-size: var(--text-xs);
+    font-weight: 600;
+  }
+  .cardDesc {
+    font-size: var(--text-xs);
+    font-weight: 500;
+  }
 }

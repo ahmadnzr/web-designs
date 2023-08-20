@@ -25,7 +25,7 @@ const Review = () => {
         <div className={styles.row}>
           <Swiper
             slidesPerView={4}
-            spaceBetween={60}
+            spaceBetween={10}
             autoplay={{
               delay: 1,
               disableOnInteraction: true,
@@ -47,12 +47,12 @@ const Review = () => {
                     />
                     <div className={styles.budget}>
                       <Icon type="star" />
-                      <span className={styles.textBudget1}>5.0</span>
+                      <span className={styles.textBudget}>5.0</span>
                     </div>
                   </div>
                   <div className={styles.cardRight}>
                     <div className={styles.budget}>
-                      <span className={styles.textBudget2}>Alnasr Umrah</span>
+                      <span className={styles.textBudget}>Alnasr Umrah</span>
                     </div>
                     <h3 className={styles.cardTitle}>Humaira Khaira</h3>
                     <p className={styles.cardDesc}>
@@ -69,7 +69,7 @@ const Review = () => {
         <div className={styles.row}>
           <Swiper
             slidesPerView={4}
-            spaceBetween={60}
+            spaceBetween={10}
             autoplay={{
               delay: 1,
               disableOnInteraction: true,
