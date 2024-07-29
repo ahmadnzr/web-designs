@@ -25,7 +25,6 @@ const VideoCarousel = () => {
   const { isEnd, startPlay, videoId, isLastVideo, isPlaying } = video;
 
   const handleProses = (type, i) => {
-    console.log({ type });
     switch (type) {
       case "video-end":
         setVideo((prev) => ({ ...prev, isEnd: true, videoId: i + 1 }));
@@ -48,17 +47,14 @@ const VideoCarousel = () => {
   };
 
   const handleLoadedMetaData = (i, e) => {
-    console.log({ e });
     setLoadedData((prev) => [...prev, e]);
   };
 
   useEffect(() => {
-    console.log({ loadedData, isPlaying });
     if (loadedData.length > 3) {
       if (!isPlaying) {
         videoRef.current[videoId].pause();
       } else {
-        console.log("masuk", startPlay);
         startPlay && videoRef.current[videoId].play();
       }
     }
@@ -133,7 +129,6 @@ const VideoCarousel = () => {
         toggleActions: "restart none none none",
       },
       onComplete: () => {
-        console.log({ isEnd, videoId });
         setVideo((prev) => ({ ...prev, startPlay: true, isPlaying: true }));
       },
     });
