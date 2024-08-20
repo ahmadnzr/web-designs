@@ -2,7 +2,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import { explore1Img, explore2Img, exploreVideo } from "../utils";
-import { animateWithGsup } from "../utils/animation";
+import { animateWithGsap } from "../utils/animation";
 
 export const Feature = () => {
   const videoRef = useRef();
@@ -18,8 +18,8 @@ export const Feature = () => {
         videoRef.current.play();
       },
     });
-    animateWithGsup("#features_title", { y: 0, opacity: 1 });
-    animateWithGsup(
+    animateWithGsap("#features_title", { y: 0, opacity: 1 });
+    animateWithGsap(
       ".g_grow",
       {
         scale: 1,
@@ -30,7 +30,7 @@ export const Feature = () => {
         scrub: 5.5,
       }
     );
-    animateWithGsup(".g_text", {
+    animateWithGsap(".g_text", {
       y: 0,
       opacity: 1,
       ease: "power2.inOut",
